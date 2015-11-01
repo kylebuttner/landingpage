@@ -34,6 +34,7 @@ ul li {
     background-repeat: no-repeat;
     background-attachment:scroll;
     background-size: cover;
+    background-position: center;
     width:100%;
     height:100%;
     position:absolute;
@@ -57,7 +58,7 @@ ul li {
 
 .big-background {
     z-index:550;
-    text-align:right;
+    text-align:left;
     height:100%;
     min-height:100%;
     position:relative;
@@ -65,8 +66,8 @@ ul li {
 }
 
 .big-background .big-background-container {
-    height: 800px;
-    width:1250px;
+    height: 0px;
+    width:1100px;
     max-width:100%;
     display:inline-block;
     position:absolute;
@@ -80,17 +81,17 @@ ul li {
 }
  .big-background-title {
     font-family:'Raleway',sans-serif;
-    font-size:78px;
+    font-size:40px;
     color:#fff;
     font-weight:300;
-    text-transform:uppercase;
+    /* text-transform:uppercase; */
     text-align:center;
     margin-bottom:22px;
     padding-top:20px;
     display:inline-block;
     background-attachment:scroll;
     background-repeat:repeat-x;
-    background-position:top center
+    background-position:bottom center
 }
 
 a.big-background-btn {
