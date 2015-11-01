@@ -173,3 +173,69 @@ a.about-section-btn {
     color:#fff;
     background: #34495e;
 }
+
+.small-background-section {
+    font-family:'Raleway',sans-serif;
+    padding:100px 0;
+    position:relative;
+    width:100%;
+    overflow:hidden
+}
+ 
+.small-background-container {
+    position:relative;
+    text-align:center
+}
+ 
+.small-background-title {
+    font-size:40px;
+    color:#f1c40f;
+    font-weight:300;
+    z-index:10;
+    display:inline-block;
+    text-transform:uppercase;
+    margin-bottom:20px;
+    margin-top: 20px;
+    position:relative;
+    background-attachment:scroll;
+    background-repeat:repeat-x;
+    background-position:top center
+}
+
+.socials a {
+    color:#fff
+}
+ 
+.socials a:hover {
+    color:#bdc3c7
+}
+
+@media screen and (max-width: 768px) {
+.about-section-title {
+    line-height:1
+}
+}
+ 
+@media screen and (max-width: 480px) {
+.big-background-title {
+    font-size:58px
+}
+ 
+.small-background-title {
+    line-height:1
+}
+ 
+/*.player{ display: none;}  -&gt; If you want to remove the video bg on a specific viewport w/o plugin*/
+}
+ 
+@media screen and (max-width: 360px) {
+.big-background-title,#colorize {
+    line-height:1
+}
+}
+ 
+@media screen and (max-width: 320px) {
+.small-background-title {
+    font-size:30px
+}
+}
