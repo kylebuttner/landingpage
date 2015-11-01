@@ -124,3 +124,52 @@ a.big-background-btn {
     z-index:0;
     backface-visibility:hidden
 }
+
+.about-section {
+    font-family:'Lato',sans-serif;
+    color:#7f8c8d;
+    background:#fff;
+    padding:60px 20px
+}
+ 
+.about-section-container {
+    text-align:center;
+    padding-bottom:50px
+}
+ 
+.about-section-title {
+    font-family:'Raleway',sans-serif;
+    font-size:40px;
+    background:#fff;
+    color:#3d566e;
+    padding:0 35px;
+    margin-bottom:22px;
+    background-attachment:scroll;
+    background-repeat:repeat-x;
+    background-position:center center;
+    text-transform:uppercase
+}
+
+a.about-section-btn {
+    font-family:'Lato',sans-serif;
+    font-size:13px;
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#34495e;
+    background:transparent;
+    border:2px solid #34495e;
+    padding:10px 14px;
+    cursor:pointer;
+    letter-spacing:2px;
+    text-align:center;
+    display:inline-block;
+    -webkit-transition:.4s background ease;
+    -moz-transition:.4s background ease;
+    -o-transition:.4s background ease;
+    transition:.4s background ease;
+}
+ 
+.about-section-btn:hover {
+    color:#fff;
+    background: #34495e;
+}
