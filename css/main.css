@@ -239,3 +239,7 @@ a.about-section-btn {
     font-size:30px
 }
 }
+
+@media screen and (max-width: 480px) {
+.player{ display: none; }
+}
