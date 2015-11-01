@@ -66,7 +66,7 @@ ul li {
 }
 
 .big-background .big-background-container {
-    height: 0px;
+    height: 80px;
     width:1100px;
     max-width:100%;
     display:inline-block;
@@ -91,7 +91,7 @@ ul li {
     display:inline-block;
     background-attachment:scroll;
     background-repeat:repeat-x;
-    background-position:bottom center
+    background-position:top center
 }
 
 a.big-background-btn {
