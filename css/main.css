@@ -1,4 +1,33 @@
 html {
+  height:100%;
+}
+body {
+  height:100%;
+  width: 100%;
+  margin:0;
+  padding:0;
+}
+#container {
+  background: url('https://github.com/kylebuttner/kylebuttner.github.io/blob/master/css/img/ggb.jpg?raw=true');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100%;
+  width:100%;
+  position:absolute;
+  background-position:center;
+}
+
+#header{
+  font-family:'Raleway',sans-serif;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 300;
+  position:fixed;
+  right:0;
+  bottom:0;
+}
+
+/* html {
     height:100%
 }
 
@@ -84,7 +113,7 @@ ul li {
     font-size:40px;
     color:#fff;
     font-weight:300;
-    /* text-transform:uppercase; */
+    /* text-transform:uppercase;
     text-align:center;
     margin-bottom:22px;
     padding-top:20px;
@@ -228,7 +257,7 @@ a.about-section-btn {
     line-height:1
 }
 
-/*.player{ display: none;}  -&gt; If you want to remove the video bg on a specific viewport w/o plugin*/
+/*.player{ display: none;}  -&gt; If you want to remove the video bg on a specific viewport w/o plugin
 }
 
 @media screen and (max-width: 360px) {
@@ -246,3 +275,4 @@ a.about-section-btn {
 @media screen and (max-width: 480px) {
 .player{ display: none; }
 }
+*/
