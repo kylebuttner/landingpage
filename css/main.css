@@ -19,12 +19,12 @@ body {
 
 #header{
   font-family:'Raleway',sans-serif;
-  font-size: 25px;
+  font-size: 15px;
   color: #fff;
   font-weight: 300;
   position:fixed;
-  right:0;
-  bottom:0;
+  bottom: 3%;
+  left: 3%;
 }
 
 /* html {
